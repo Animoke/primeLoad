@@ -11,6 +11,7 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <pthread.h>
 
 size_t				is_prime(unsigned long long number)
 {

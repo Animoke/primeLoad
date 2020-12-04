@@ -11,6 +11,7 @@
 # define ___PRIME_H___
 
 # include <stddef.h>
+# include <pthread.h>
 
 size_t				is_prime(unsigned long long number);
 unsigned long long	find_next_prime(unsigned long long nb);
